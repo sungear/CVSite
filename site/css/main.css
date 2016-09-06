@@ -1,0 +1,25 @@
+/*Fix footer to bottom of page*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    display:none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav {
+	background-color: #eff9ff;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
