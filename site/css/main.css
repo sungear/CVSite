@@ -1,3 +1,17 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body > nav {
+	background-color: #eff9ff;
+}
+
+/*Get rid of useless spaces*/
+h1 {
+	margin: 0px;
+}
+
 /*Fix footer to bottom of page*/
 html {
     position: relative;
@@ -10,16 +24,4 @@ footer {
     bottom: 0;
     height: auto;
     width: 100%;
-}
-
-nav {
-	background-color: #eff9ff;
-	top: 0px;
-	margin: 0px;
-	padding: 0px;
-}
-
-body {
-	margin: 0px;
-	padding: 0px;
 }
