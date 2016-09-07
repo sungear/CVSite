@@ -1,25 +1,39 @@
 * {
 	margin: 0px;
 	padding: 0px;
+    overflow-x: hidden;
 }
 
-body > nav {
+nav {
 	background-color: #cae1f0;
 /*	background-color: #eff9ff;*/
+    max-width: 100%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-body nav ul > li, main div > ul li {
-	display: inline-block;
-	padding: 1em;
-}
-
-body nav ul li h1 > a {	
-	color: #016ba8;
-	text-decoration: none;
+ul {
+    font-size: 10px;
+    text-align: right;
 }
 
 main {
-	color: #5d5d5d;
+	color: #6a6a6a;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space {
+    flex-basis: 25%;
 }
 
 footer {
@@ -27,12 +41,50 @@ footer {
     background-color: #016ba8;
 }
 
+/*Ajust text-size with windows size*/
+@media (max-width: 768px) {
+	nav > ul {
+		font-size: 10px; 
+	}
+}
+
+@media (max-width: 1024px) {
+	nav > ul {
+		font-size: 10px; 
+	}
+/*
+    #pc-nav {
+        display:none;
+    }
+*/
+}
+
+@media (min-width: 1024px) {
+	nav > ul {
+/*		font-size: 14px; */
+	}
+}
+
+/*Automatic padding for content*/
 .content {
 	padding: 1em;
 }
 
+/*Lists <ul><li> and navigation organisation*/
+body nav ul > li, main div > ul li {
+	display: inline-block;
+	padding: 1em;
+}
+
+/*Links <a> visual modification*/
+body nav ul li h1 > a {	
+	color: #016ba8;
+/*	color: #4389a2;*/
+	text-decoration: none;
+}
+
 /*Get rid of  useless spaces*/
-h1 {
+h1, h2, h3 {
 	margin: 0px;
 }
 
@@ -47,5 +99,5 @@ footer {
     left: 0;
     bottom: 0;
     height: auto;
-    width: 100%;
+    min-width: 100%;
 }
