@@ -8,6 +8,29 @@ body > nav {
 /*	background-color: #eff9ff;*/
 }
 
+body nav ul > li, main div > ul li {
+	display: inline-block;
+	padding: 1em;
+}
+
+body nav ul li h1 > a {	
+	color: #016ba8;
+	text-decoration: none;
+}
+
+main {
+	color: #5d5d5d;
+}
+
+footer {
+	color: #cae1f0;
+    background-color: #016ba8;
+}
+
+.content {
+	padding: 1em;
+}
+
 /*Get rid of  useless spaces*/
 h1 {
 	margin: 0px;
@@ -19,7 +42,6 @@ html {
     min-height: 100%;
 }
 footer {
-    background-color: #447491;
     display:none;
     position: absolute;
     left: 0;
