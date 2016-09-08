@@ -8,10 +8,25 @@ nav {
 	background-color: #cae1f0;
 /*	background-color: #eff9ff;*/
     max-width: 100%;
-    width: 100%;
-    display: inline-flex;
+    width: 100%;	
+    display:inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+#nav {
+}
+
+#pc-nav {
+	justify-content: flex-end;
+}
+
+#logo {
+	justify-content: flex-start;
+}
+
+img {
+	float: left;
 }
 
 ul {
@@ -32,9 +47,11 @@ footer > div {
     justify-content: center;
 }
 
+/*
 .space {
     flex-basis: 25%;
 }
+*/
 
 footer {
 	color: #cae1f0;
